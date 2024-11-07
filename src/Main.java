@@ -1,10 +1,11 @@
-import br.com.alura.conversosdemoedas.classes.BuscaTaxas;
+import br.com.alura.conversosdemoedas.classes.*;
 
 import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException, InterruptedException {
-        BuscaTaxas buscaTaxas = new BuscaTaxas();
-        System.out.println(buscaTaxas.getApi("JPY"));
+        BuscaJson buscaJson = new BuscaJson();
+        SelecionaTaxa selecionaTaxa = new SelecionaTaxa();
+
     }
 }
